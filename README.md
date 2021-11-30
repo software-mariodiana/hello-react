@@ -1,4 +1,6 @@
-# Refactoring CSS in React
+# Hello React
+
+The goal of this project is to illustrate how CSS at-selectors can be made component-based in React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and then tweaked to use JavaScript objects for CSS.
 
@@ -52,7 +54,7 @@ function useLinearSpinAnimation({className, duration}) {
 }
 ```
 
-In this hook, we implement the `@media` and `@keyframes` selectors within a string. The two arguments, `className` and `duration`, gives us some flexibility. Refer to the `Animation.js` file for details.
+In this hook, we implement the `@media` and `@keyframes` selectors within a string. The two arguments, `className` and `duration`, give us some flexibility. Refer to the `Animation.js` file for details.
 
 The hook is then called from the `App.js` file, like so:
 
